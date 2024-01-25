@@ -5,9 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiSample", "MinimalApiSample\MinimalApiSample.csproj", "{3FBCD029-151A-4084-BB38-DC5FA26DDB91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApiSample", "FunctionApiSample\FunctionApiSample.csproj", "{0F876CB6-4646-4404-A8A9-3FE146E3D1A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApiSample", "FunctionApiSample\FunctionApiSample.csproj", "{0F876CB6-4646-4404-A8A9-3FE146E3D1A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedChatTypes", "SharedChatTypes\SharedChatTypes.csproj", "{CA8EDE9D-4475-4DE6-94BD-DD932095222A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedChatTypes", "SharedChatTypes\SharedChatTypes.csproj", "{CA8EDE9D-4475-4DE6-94BD-DD932095222A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{D6868AB7-BEBC-41D2-AB33-0C3CE422BBDD}"
+	ProjectSection(SolutionItems) = preProject
+		..\readme.md = ..\readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
