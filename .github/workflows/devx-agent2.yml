@@ -3,6 +3,19 @@ on:
   push:
     branches:
     - main
+    paths-ignore:
+    - '**/*.md'
+    - '**/*.gitignore'
+    - '**/*.gitattributes'
+    - '**/MinimalApiSample/**'
+  workflow_dispatch:
+    branches:
+    - main
+    paths-ignore:
+    - '**/*.md'
+    - '**/*.gitignore'
+    - '**/*.gitattributes'
+
 env:
   AZURE_FUNCTIONAPP_NAME: devx-agent2
   AZURE_FUNCTIONAPP_PACKAGE_PATH: FunctionApiSample/published
