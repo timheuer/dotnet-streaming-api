@@ -1,0 +1,33 @@
+@MinimalApiSample_HostAddress = https://localhost:7033
+@FunctionsSample_HostAddress = http://localhost:7217
+
+POST {{MinimalApiSample_HostAddress}}/ack/
+Content-Type: application/json
+
+{
+"messages": [ 
+  {
+    "role": "user", 
+    "content": "Explain this code for me", 
+    "copilot_references": [
+      "file","foo.cs"
+    ] 
+  }
+] 
+}
+
+###
+POST {{FunctionsSample_HostAddress}}/api/ack/
+Content-Type: application/json
+
+{
+"messages": [ 
+  {
+    "role": "user", 
+    "content": "Explain this code for me", 
+    "copilot_references": [
+      "file","foo.cs"
+    ] 
+  }
+] 
+}
