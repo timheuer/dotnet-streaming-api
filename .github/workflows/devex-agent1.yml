@@ -16,7 +16,7 @@ on:
     - '**/*.gitattributes'
 
 env:
-  AZURE_WEBAPP_NAME: devx-agent1
+  AZURE_WEBAPP_NAME: devex-agent1
   AZURE_WEBAPP_PACKAGE_PATH: ./published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
