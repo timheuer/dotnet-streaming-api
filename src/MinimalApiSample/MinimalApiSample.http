@@ -1,7 +1,8 @@
 @MinimalApiSample_HostAddress = https://localhost:7033
+@minimalhttp = http://localhost:5062
 @FunctionsSample_HostAddress = http://localhost:7217
 
-POST {{MinimalApiSample_HostAddress}}/ack/
+POST {{tunnel}}/ack/
 Content-Type: application/json
 
 {
